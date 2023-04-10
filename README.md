@@ -1,11 +1,12 @@
 # VLSI Tutorials
 ---
 
+Welcome to this repository! This is a repository for known about open-source software suites for chip design :)
+
 # OpenROAD VLSI Tool
 
 ---
 
-Welcome to this repository! This is a repository for known about open-source software suites for chip design :)
 
 ## Tutorials
 
