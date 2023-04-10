@@ -1,18 +1,18 @@
 # VLSI Tutorials
 ---
 
-# OpenROAD Tool
+# OpenROAD VLSI Tool
 
-Welcome to the OpenROAD Tool! This is an open-source software suite for chip design, developed by the University of California, Berkeley. The suite includes a wide range of tools for physical design, including placement, routing, and optimization algorithms.
+---
 
-## Table of Contents
+Welcome to this repository! This is a repository for known about open-source software suites for chip design :)
+
+## Tutorials
 
 - [OpenROAD installation steps](./doc/OpenROAD%20installation%20steps.md)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Running a basic flow](./doc/Running%20flow%20for%20a%20design%20in%20OpenROAD.md)
 - [Contributing](#contributing)
 - [License](#license)
-
 
 
 
