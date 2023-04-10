@@ -1,5 +1,20 @@
 # Running a basic flow for a design in OpenROAD
 ---
+
+## Table of Contents
+
+  - [Platform Configuration](#platform-configuration)
+
+  - [Design Configuration](#design-configuration)
+  
+  - [Run a automatic flow](#running-the-automated-rtl2gds-flow)
+
+    - [Runing a flow](#running-the-gcd-design)
+  
+  - [OpenROAD GUI Overview](#openroad-gui)
+  
+  - [Tools used in OpenROAD](#tools-used-in-openroad)
+
 This document shows how to set up the platform and design configuration files to run the complete RTL2GDS flow using OpenROAD.
 
 First, you need to source the ***setup_env.sh*** file located in the root directory of OpenROAD (OpenROAD-flow-scripts).
