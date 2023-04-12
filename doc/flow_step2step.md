@@ -17,7 +17,7 @@ For example if you have run a flow for gcd with a nangate45, run this command
 ```shell
 make clean_all DESIGN_CONFIG=./designs/nangate45/gcd/config.mk
 ```
-<details open>
+<details close>
    <summary> <h2> Running synthesis step </h2> </summary>
 
  Run `make synth` and examine the output:
