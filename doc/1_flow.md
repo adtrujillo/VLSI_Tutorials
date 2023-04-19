@@ -230,4 +230,37 @@ openroad -gui
 ---
 
 
+## Excersice 1: Floorplaning Initialization Based on Core and Die area
+
+This section describes OpenROAD floorplanning and placement functions using the GUI.
+
+Run the following commands in OpenROAD tool root directory:
+
+  ```shell
+  cd ./tools/OpenROAD/src/ifp/test
+  openroad -gui
+  ```
+ - In the GUI use the **TCL commands** section and use the following command:
+
+  ```shell
+  source init_floorplan1.tcl
+  ```
+
+![tcl_commands](./images_step2step/tcl_commands.png)
+
+You can see something like this:
+
+![floorplan](./images_step2step/floorplan_core_die.png)
+
+**If the core area (green square) not appears, please select the view for Misc in the Display Control frame.**
+
+### Core and Die area
+
+Core and Die areas are the most precise measurements as they provide the specific size of the silicon that will be utilized in manufacturing.
+
+Core area refers to the space on silicon that can be occupied by cells, and it can be accurately calculated by:
+
+$$ Core_{(area)} = \frac{Design_{(area)}}{utilization}$$
+
+Die area comprises the entire surface area of silicon required to manufacture the chip, encompassing any utilized space and input/output (I/O) sections.
 
