@@ -240,7 +240,7 @@ For verifying the installation of OpenROAD Sourcing the OpenROAD env variables, 
 
    
    ```shell
-   source setup_env.sh
+   source env.sh
    yosys -help
    openroad -help
    exit
