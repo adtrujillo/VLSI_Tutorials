@@ -230,6 +230,10 @@ You can install OpenROAD with the next commands:
    
    The installation of OpenROAD process is about from 30 minutes or 1:30 hours, depending on your computer capacity.
    
+7. Return to OpenROAD root directory and execute the setup.sh file 
+   ```shell
+   sudo ./setup.sh 
+   ```
 ### Verifying the installation
    
 For verifying the installation of OpenROAD Sourcing the OpenROAD env variables, and access to yosys and OpenROAD with the next commands
